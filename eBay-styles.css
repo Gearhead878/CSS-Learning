@@ -1,0 +1,132 @@
+.custom-collapse {
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    margin-top: 10px;
+    margin-bottom: 12px;
+}
+.custom-collapse summary {
+    padding: 10px 15px;
+    background: #eaeaea;
+    cursor: pointer;
+    font-weight: bold;
+    list-style: none;
+    position: relative;
+}
+.custom-collapse summary::after {
+    content: "+";
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.custom-collapse[open] summary::after {
+    content: "-";
+}
+.custom-collapse .content {
+    padding: 15px;
+}
+
+.specifications-container {
+    width: 100%;
+    margin: 0 auto;
+    font-family: 'Arial', sans-serif;
+    position: relative;
+    overflow: hidden;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+.spec-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 16px;
+}
+
+.spec-table th, .spec-table td {
+    padding: 12px 16px;
+    text-align: left;
+    vertical-align: top;
+    border-bottom: 1px solid #ccc;
+}
+
+.spec-table th {
+    width: 30%;
+    background-color: #f9f9f9;
+    font-weight: bold;
+}
+
+.spec-table td {
+    width: 70%;
+}
+
+.product-images{
+    max-width: 100%; 
+    height: auto; 
+    display: inline-block; 
+    vertical-align: middle"
+}
+
+.comparison-tables{
+    width: 100%; 
+    border-collapse: collapse; 
+    font-family: Arial, sans-serif; 
+    text-align: center; 
+    border: 1px solid #ddd;
+}
+
+.comparison-tables .caption{
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+    color: black;
+}
+
+.comparison-tables tr.cp-headers td,
+.comparison-tables tr.cp-headers th {
+    background-color: #0073e6;
+    color: white;
+}
+
+.comparison-tables tr:nth-child(even) :not(.cp-headers) {
+    background-color: #f9f9f9;
+}
+
+.comparison-tables tr:nth-child(odd) :not(.cp-headers) {
+    background-color: #ffffff; 
+}
+
+.comparison-tables th{
+    padding: 10px;
+    border: 1px solid #ddd;
+    font-weight: bold;
+    text-align: center;
+}
+
+.comparison-tables td{
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.comparison-tables img {
+    max-width: 80px;
+}
+
+table.comparison-tables a.btn {
+    display: inline-block;
+    padding: 8px 16px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+table.comparison-tables a.btn-buy {
+    background-color: #FFD700;
+    color: black;
+}
+
+table.comparison-tables a.btn-coming-soon {
+    background-color: #FF6FF0;
+    color: #FFFFFF;
+}
